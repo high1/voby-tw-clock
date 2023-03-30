@@ -1,7 +1,7 @@
 # SVG clock implemented in <a href="https://github.com/vobyjs/voby"><img src="https://raw.githubusercontent.com/vobyjs/voby/master/resources/logo/svg/logo.svg" alt="voby" height="60"></a>
 
 ![Build and Deploy](https://github.com/high1/voby-tw-clock/actions/workflows/main.yml/badge.svg?branch=main)  
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9b9824b9-50fa-4b8b-8563-3f677dce51c0/deploy-status)](https://app.netlify.com/sites/voby-clock/deploys)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7373e04e-48c2-499c-9ab4-b93f6c151b7f/deploy-status)](https://app.netlify.com/sites/voby-tw-clock/deploys)  
 
 Inspired by [sauron clock](https://ivanceras.github.io/svg-clock/)  
 
