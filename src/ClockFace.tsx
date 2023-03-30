@@ -63,16 +63,6 @@ export const ClockFace = () => {
           />
         </g>
       </svg>
-      <div class="mb-12 flex w-full items-center justify-center">
-        <label class="flex cursor-pointer items-center">
-          <div class="flex h-8 w-14 items-center rounded-full bg-gray-600 px-1">
-            <input type="checkbox" class="peer sr-only" />
-            <div class="grow-0 transition-[flex-grow] peer-checked:grow" />
-            <div class="h-6 w-6 rounded-full bg-white transition-colors peer-checked:bg-teal-400" />
-          </div>
-          <span class="ml-3 font-medium text-white">Toggle Me!</span>
-        </label>
-      </div>
     </div>
   );
 };
