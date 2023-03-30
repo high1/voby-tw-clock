@@ -19,7 +19,7 @@ export const ClockFace = () => {
 
   return (
     <div class="grid h-screen place-content-center dark:bg-neutral-700">
-      <svg viewBox="0 0 200 200" class="h-[90vmin]">
+      <svg viewBox="0 0 200 200" class="h-95vmin">
         <g class="translate-1/2">
           <circle
             class="fill-none stroke-neutral-600 dark:stroke-neutral-200"
