@@ -1,0 +1,58 @@
+{
+  "root": true,
+  "ignorePatterns": ["dist", "node_modules", "!**/.*", "pnpm-lock.yaml"],
+  "overrides": [
+    {
+      "files": ["*.{ts,tsx}"],
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:@typescript-eslint/strict",
+        "plugin:jsx-a11y/recommended",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "plugin:prettier/recommended"
+      ],
+      "parserOptions": {
+        "sourceType": "module",
+        "project": "tsconfig.json",
+        "ecmaVersion": "latest",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "settings": {
+        "import/resolver": {
+          "typescript": {}
+        }
+      }
+    },
+    {
+      "files": ["*.json"],
+      "excludedFiles": ["{.eslintrc,tsconfig,.vscode/*}.json"],
+      "extends": [
+        "plugin:jsonc/recommended-with-json",
+        "plugin:jsonc/prettier",
+        "plugin:prettier/recommended"
+      ]
+    },
+    {
+      // jsonc
+      "files": ["{.eslintrc,tsconfig,.vscode/*}.json"],
+      "extends": [
+        "plugin:jsonc/recommended-with-jsonc",
+        "plugin:jsonc/prettier",
+        "plugin:prettier/recommended"
+      ]
+    },
+    {
+      "files": ["*.yml"],
+      "extends": [
+        "plugin:yml/standard",
+        "plugin:yml/prettier",
+        "plugin:prettier/recommended"
+      ]
+    }
+  ]
+}
