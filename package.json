@@ -6,9 +6,9 @@
   "keywords": [],
   "description": "voby clock, inspired by sauron clock",
   "devDependencies": {
-    "@types/node": "18.16.0",
-    "@typescript-eslint/eslint-plugin": "5.59.0",
-    "@typescript-eslint/parser": "5.59.0",
+    "@types/node": "18.16.3",
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1",
     "eslint": "8.39.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-typescript": "3.5.5",
@@ -18,14 +18,14 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-yml": "1.5.0",
     "prettier": "2.8.8",
-    "prettier-plugin-tailwindcss": "0.2.7",
-    "tailwindcss": "3.3.1",
+    "prettier-plugin-tailwindcss": "0.2.8",
+    "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
-    "vite": "4.3.1",
+    "vite": "4.3.3",
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "voby": "0.49.1",
+    "voby": "0.50.0",
     "voby-vite": "1.1.0"
   },
   "scripts": {
