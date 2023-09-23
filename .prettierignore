@@ -1,0 +1,11 @@
+# Ignore everything recursively
+*
+
+# But not the .ts files
+!*.ts
+!*.tsx
+!*.json
+!*.yml
+
+# Check subdirectories too
+!*/

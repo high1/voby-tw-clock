@@ -18,7 +18,8 @@ export default ({ mode }: ConfigEnv) =>
       checker({
         typescript: true,
         eslint: {
-          lintCommand: 'eslint . --max-warnings 0',
+          lintCommand:
+            'eslint . --ext .ts --ext .tsx --ext .json --ext .yml --max-warnings 0',
         },
       }),
     ],

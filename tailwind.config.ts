@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        voby: 'var(--voby-yellow)',
+        voby: 'rgb(var(--voby-yellow) / <alpha-value>)',
         gray: colors.zinc,
       },
       height: {
