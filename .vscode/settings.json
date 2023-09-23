@@ -5,6 +5,5 @@
   "eslint.validate": ["json", "jsonc", "yaml"],
   "files.associations": {
     "*.css": "tailwindcss"
-  },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  }
 }

@@ -4,5 +4,5 @@ import { ClockFace } from 'ClockFace';
 
 render(
   hmr((cb: (mod: unknown) => void) => import.meta.hot?.accept(cb), ClockFace),
-  document.querySelector('#root')
+  document.querySelector('#root'),
 );

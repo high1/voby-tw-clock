@@ -1,7 +1,6 @@
 {
   // jsonc
   "recommendations": [
-    "antfu.unocss",
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig"
