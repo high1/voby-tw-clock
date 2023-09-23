@@ -9,5 +9,5 @@
 }
 
 :root {
-  --voby-yellow: #ffcb3dff;
+  --voby-yellow: 255 203 61; /* #ffcb3d */
 }

@@ -1,3 +1,4 @@
+import colors from 'tailwindcss/colors';
 import type { Config } from 'tailwindcss';
 
 export default {
@@ -5,7 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        voby: 'var(--voby-yellow)',
+        voby: 'rgb(var(--voby-yellow) / <alpha-value>)',
+        gray: colors.zinc,
       },
       height: {
         '95vmin': '95vmin',
