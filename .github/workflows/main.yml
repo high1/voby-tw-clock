@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  BASE: /${GITHUB_REPOSITORY#*/}/
+  BASE: /${{ github.event.repository.name }}/
 
 jobs:
   build-and-deploy:
