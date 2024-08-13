@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^0.7.0
     version: 0.7.2(eslint@8.57.0)(typescript@5.5.4)(vite@5.3.5)
   vite-tsconfig-paths:
-    specifier: 4.3.2
-    version: 4.3.2(typescript@5.5.4)(vite@5.3.5)
+    specifier: 5.0.1
+    version: 5.0.1(typescript@5.5.4)(vite@5.3.5)
   voby-vite:
     specifier: 1.2.5
     version: 1.2.5
@@ -3279,8 +3279,8 @@ packages:
       vscode-uri: 3.0.8
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.5.4)(vite@5.3.5):
-    resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
+  /vite-tsconfig-paths@5.0.1(typescript@5.5.4)(vite@5.3.5):
+    resolution: {integrity: sha512-yqwv+LstU7NwPeNqajZzLEBVpUFU6Dugtb2P84FXuvaoYA+/70l9MHE+GYfYAycVyPSDYZ7mjOFuYBRqlEpTig==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
